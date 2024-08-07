@@ -38,8 +38,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +48,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(850, 52);
+            this.panel1.Size = new System.Drawing.Size(848, 52);
             this.panel1.TabIndex = 1;
             // 
             // label1
@@ -70,9 +68,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(21, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(266, 18);
+            this.label2.Size = new System.Drawing.Size(262, 18);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Layout received from Workstudy - Date";
+            this.label2.Text = "Layout received from Workstudy -Date";
             // 
             // textBox1
             // 
@@ -96,9 +94,9 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(21, 136);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(266, 18);
+            this.label3.Size = new System.Drawing.Size(215, 18);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Layout received from Workstudy - Date";
+            this.label3.Text = "NO of Machine Setting-External";
             // 
             // textBox3
             // 
@@ -114,9 +112,9 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(21, 200);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(266, 18);
+            this.label4.Size = new System.Drawing.Size(251, 18);
             this.label4.TabIndex = 6;
-            this.label4.Text = "Layout received from Workstudy - Date";
+            this.label4.Text = "Folder and Attachment Conformation";
             // 
             // textBox4
             // 
@@ -132,34 +130,14 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(21, 268);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(266, 18);
+            this.label5.Size = new System.Drawing.Size(237, 18);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Layout received from Workstudy - Date";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(303, 338);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(275, 29);
-            this.textBox5.TabIndex = 11;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(21, 341);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(266, 18);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Layout received from Workstudy - Date";
+            this.label5.Text = "Layout Hand Over to Leader - Date";
             // 
             // Mechanic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox3);
@@ -170,7 +148,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "Mechanic";
-            this.Size = new System.Drawing.Size(850, 652);
+            this.Size = new System.Drawing.Size(848, 652);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
@@ -190,7 +168,5 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label6;
     }
 }

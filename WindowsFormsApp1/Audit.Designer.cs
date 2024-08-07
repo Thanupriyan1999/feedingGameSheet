@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Technical
+    partial class Audit
     {
         /// <summary> 
         /// Required designer variable.
@@ -41,7 +41,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(848, 52);
-            this.panel1.TabIndex = 11;
+            this.panel1.TabIndex = 14;
             // 
             // label1
             // 
@@ -50,16 +50,16 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(167, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(371, 25);
+            this.label1.Size = new System.Drawing.Size(464, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Pre Plan For The Feeding - Technical";
+            this.label1.Text = "Pre Plan For The Feeding - Production Asistant";
             // 
-            // Technical
+            // Audit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
-            this.Name = "Technical";
+            this.Name = "Audit";
             this.Size = new System.Drawing.Size(848, 652);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -68,6 +68,7 @@
         }
 
         #endregion
+
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
     }
