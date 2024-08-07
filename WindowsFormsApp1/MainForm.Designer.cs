@@ -47,6 +47,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -269,14 +270,14 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(360, 8);
+            this.textBox1.Location = new System.Drawing.Point(359, 9);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(83, 23);
             this.textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(861, 6);
+            this.textBox2.Location = new System.Drawing.Point(862, 7);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(153, 23);
             this.textBox2.TabIndex = 6;
@@ -291,12 +292,21 @@
             this.label4.TabIndex = 5;
             this.label4.Text = "Date:";
             // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(221, 40);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(848, 652);
+            this.panel3.TabIndex = 3;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1069, 692);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -334,5 +344,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel3;
     }
 }

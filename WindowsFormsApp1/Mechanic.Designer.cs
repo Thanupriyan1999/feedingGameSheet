@@ -50,7 +50,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(850, 52);
+            this.panel1.Size = new System.Drawing.Size(848, 52);
             this.panel1.TabIndex = 1;
             // 
             // label1
@@ -70,9 +70,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(21, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(266, 18);
+            this.label2.Size = new System.Drawing.Size(231, 18);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Layout received from Workstudy - Date";
+            this.label2.Text = "Layout received from Workstudy -";
             // 
             // textBox1
             // 
@@ -170,7 +170,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.Name = "Mechanic";
-            this.Size = new System.Drawing.Size(850, 652);
+            this.Size = new System.Drawing.Size(848, 652);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

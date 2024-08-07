@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Audit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Audit.Designer.cs">
+      <DependentUpon>Audit.cs</DependentUpon>
+    </Compile>
     <Compile Include="FeedingGameSheet.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     <Compile Include="Mechanic.Designer.cs">
       <DependentUpon>Mechanic.cs</DependentUpon>
     </Compile>
+    <Compile Include="ProductionAssistent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProductionAssistent.Designer.cs">
+      <DependentUpon>ProductionAssistent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RgisterForm.cs">
@@ -96,6 +108,15 @@
     <Compile Include="WorkStudy.Designer.cs">
       <DependentUpon>WorkStudy.cs</DependentUpon>
     </Compile>
+    <Compile Include="ZonelHead.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ZonelHead.Designer.cs">
+      <DependentUpon>ZonelHead.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Audit.resx">
+      <DependentUpon>Audit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FeedingGameSheet.resx">
       <DependentUpon>FeedingGameSheet.cs</DependentUpon>
     </EmbeddedResource>
@@ -110,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Mechanic.resx">
       <DependentUpon>Mechanic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductionAssistent.resx">
+      <DependentUpon>ProductionAssistent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -129,6 +153,9 @@
     <EmbeddedResource Include="WorkStudy.resx">
       <DependentUpon>WorkStudy.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ZonelHead.resx">
+      <DependentUpon>ZonelHead.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -141,6 +168,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

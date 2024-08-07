@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class FeedingGameSheet : UserControl
+    public partial class Audit : UserControl
     {
-        public FeedingGameSheet()
+        public Audit()
         {
             InitializeComponent();
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void FeedingGameSheet_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
