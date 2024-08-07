@@ -36,5 +36,10 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
+
+        private void feedingGameSheet1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
