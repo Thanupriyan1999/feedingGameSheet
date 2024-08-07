@@ -53,11 +53,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(24, 276);
+            this.label5.Location = new System.Drawing.Point(36, 282);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(266, 18);
+            this.label5.Size = new System.Drawing.Size(209, 18);
             this.label5.TabIndex = 17;
-            this.label5.Text = "Layout received from Workstudy - Date";
+            this.label5.Text = "Sample Processing Days(A-B)";
             // 
             // textBox3
             // 
@@ -71,11 +71,11 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 208);
+            this.label4.Location = new System.Drawing.Point(36, 214);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(266, 18);
+            this.label4.Size = new System.Drawing.Size(142, 18);
             this.label4.TabIndex = 15;
-            this.label4.Text = "Layout received from Workstudy - Date";
+            this.label4.Text = "Operaters Allocation";
             // 
             // textBox2
             // 
@@ -89,11 +89,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(24, 144);
+            this.label3.Location = new System.Drawing.Point(36, 149);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(266, 18);
+            this.label3.Size = new System.Drawing.Size(161, 18);
             this.label3.TabIndex = 13;
-            this.label3.Text = "Layout received from Workstudy - Date";
+            this.label3.Text = "Sample Finished - Date";
             // 
             // textBox1
             // 
@@ -107,11 +107,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(24, 81);
+            this.label2.Location = new System.Drawing.Point(36, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(266, 18);
+            this.label2.Size = new System.Drawing.Size(254, 18);
             this.label2.TabIndex = 11;
-            this.label2.Text = "Layout received from Workstudy - Date";
+            this.label2.Text = "Layout received from Mechanic- Date";
             // 
             // panel1
             // 

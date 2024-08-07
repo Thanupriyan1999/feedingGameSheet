@@ -77,7 +77,7 @@
             this.textBox1.Location = new System.Drawing.Point(303, 70);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(275, 29);
+            this.textBox1.Size = new System.Drawing.Size(505, 29);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
@@ -85,7 +85,7 @@
             this.textBox2.Location = new System.Drawing.Point(303, 133);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(275, 29);
+            this.textBox2.Size = new System.Drawing.Size(505, 29);
             this.textBox2.TabIndex = 5;
             // 
             // label3
@@ -103,7 +103,7 @@
             this.textBox3.Location = new System.Drawing.Point(303, 197);
             this.textBox3.Multiline = true;
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(275, 29);
+            this.textBox3.Size = new System.Drawing.Size(505, 29);
             this.textBox3.TabIndex = 7;
             // 
             // label4
@@ -121,7 +121,7 @@
             this.textBox4.Location = new System.Drawing.Point(303, 265);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(275, 29);
+            this.textBox4.Size = new System.Drawing.Size(505, 29);
             this.textBox4.TabIndex = 9;
             // 
             // label5
