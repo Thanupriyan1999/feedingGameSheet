@@ -66,7 +66,7 @@
             this.signup_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.signup_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.signup_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.signup_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signup_btn.ForeColor = System.Drawing.Color.White;
             this.signup_btn.Location = new System.Drawing.Point(259, 304);
             this.signup_btn.Name = "signup_btn";
@@ -118,10 +118,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(253, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(169, 22);
+            this.label2.Size = new System.Drawing.Size(154, 24);
             this.label2.TabIndex = 11;
             this.label2.Text = "Register Account";
             // 
@@ -132,7 +132,7 @@
             this.exit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exit.Location = new System.Drawing.Point(530, 9);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(15, 16);
+            this.exit.Size = new System.Drawing.Size(16, 16);
             this.exit.TabIndex = 10;
             this.exit.Text = "X";
             this.exit.Click += new System.EventHandler(this.exit_Click);
@@ -164,11 +164,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(11, 197);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 22);
+            this.label6.Size = new System.Drawing.Size(191, 24);
             this.label6.TabIndex = 10;
             this.label6.Text = "Feeding Game Sheet";
             // 
@@ -180,7 +180,7 @@
             this.login_signupbtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.login_signupbtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.login_signupbtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.login_signupbtn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_signupbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_signupbtn.ForeColor = System.Drawing.SystemColors.Menu;
             this.login_signupbtn.Location = new System.Drawing.Point(34, 355);
             this.login_signupbtn.Name = "login_signupbtn";
@@ -221,6 +221,7 @@
             this.Name = "RgisterForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RgisterForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.RgisterForm_FormClosing);
             this.Load += new System.EventHandler(this.RgisterForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

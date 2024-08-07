@@ -33,12 +33,13 @@ namespace WindowsFormsApp1
 
         private void exit_Click(object sender, EventArgs e)
         {
-            Application.Exit(); 
+            Application.Exit();
+           
         }
 
         private void login_signupbtn_Click(object sender, EventArgs e)
         {
-             Form1 loginForm = new Form1(); 
+             Login loginForm = new Login(); 
             loginForm.Show();
             this.Hide();
         }
@@ -96,7 +97,7 @@ namespace WindowsFormsApp1
                                     MessageBox.Show("Registered successfully!"
                                         , "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                                    Form1 loginForm = new Form1();
+                                    Login loginForm = new Login();
                                     loginForm.Show();
                                     this.Hide();
                                 }
@@ -116,6 +117,15 @@ namespace WindowsFormsApp1
                        connect.Close();
                     }
                 }
+            }
+        }
+
+        private void RgisterForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Do you want close?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.No)
+            {
+                e.Cancel = true;
             }
         }
     }

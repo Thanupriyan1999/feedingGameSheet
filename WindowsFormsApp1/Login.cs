@@ -12,11 +12,11 @@ using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
         SqlConnection connect
             = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\User\Documents\form.mdf;Integrated Security=True;Connect Timeout=30");
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -145,6 +145,15 @@ namespace WindowsFormsApp1
                     }
                 }
                
+            }
+        }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult dr = MessageBox.Show("Do you want close?", "Question", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dr == DialogResult.No)
+            {
+                e.Cancel = true;
             }
         }
     }
