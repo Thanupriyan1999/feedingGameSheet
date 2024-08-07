@@ -75,11 +75,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(11, 197);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(200, 22);
+            this.label6.Size = new System.Drawing.Size(191, 24);
             this.label6.TabIndex = 10;
             this.label6.Text = "Feeding Game Sheet";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -105,13 +105,14 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label5.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(49, 339);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(126, 13);
+            this.label5.Size = new System.Drawing.Size(133, 13);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Rgister Your Account";
+            this.label5.Text = "Register Your Account";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // exit
@@ -121,7 +122,7 @@
             this.exit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exit.Location = new System.Drawing.Point(524, 9);
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(15, 16);
+            this.exit.Size = new System.Drawing.Size(16, 16);
             this.exit.TabIndex = 1;
             this.exit.Text = "X";
             this.exit.Click += new System.EventHandler(this.exit_Click);
@@ -129,10 +130,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(253, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(141, 22);
+            this.label2.Size = new System.Drawing.Size(132, 24);
             this.label2.TabIndex = 2;
             this.label2.Text = "Login Account";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -188,7 +189,7 @@
             this.login_btn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.login_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.login_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.login_btn.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.login_btn.ForeColor = System.Drawing.Color.White;
             this.login_btn.Location = new System.Drawing.Point(259, 304);
             this.login_btn.Name = "login_btn";
