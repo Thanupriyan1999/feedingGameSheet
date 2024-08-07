@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.exit = new System.Windows.Forms.Label();
+            this.lableExit = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -47,24 +48,23 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // exit
+            // lableExit
             // 
-            this.exit.AutoSize = true;
-            this.exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.exit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exit.Location = new System.Drawing.Point(1041, 9);
-            this.exit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(16, 16);
-            this.exit.TabIndex = 0;
-            this.exit.Text = "X";
-            this.exit.Click += new System.EventHandler(this.label1_Click);
+            this.lableExit.AutoSize = true;
+            this.lableExit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lableExit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lableExit.Location = new System.Drawing.Point(1041, 9);
+            this.lableExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lableExit.Name = "lableExit";
+            this.lableExit.Size = new System.Drawing.Size(16, 16);
+            this.lableExit.TabIndex = 0;
+            this.lableExit.Text = "X";
+            this.lableExit.Click += new System.EventHandler(this.labelExit_Click);
             // 
             // panel1
             // 
@@ -74,7 +74,7 @@
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.exit);
+            this.panel1.Controls.Add(this.lableExit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -82,6 +82,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1069, 40);
             this.panel1.TabIndex = 1;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(857, 7);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(152, 22);
+            this.dateTimePicker1.TabIndex = 0;
             // 
             // label4
             // 
@@ -140,7 +147,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(221, 652);
             this.panel2.TabIndex = 2;
-            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // button9
             // 
@@ -293,13 +299,6 @@
             this.panel3.Size = new System.Drawing.Size(848, 652);
             this.panel3.TabIndex = 3;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(857, 7);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(152, 22);
-            this.dateTimePicker1.TabIndex = 0;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -326,7 +325,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label exit;
+        private System.Windows.Forms.Label lableExit;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
