@@ -279,7 +279,7 @@
             this.FeedingSheet_button1.TabIndex = 3;
             this.FeedingSheet_button1.Text = "Feeding game sheet";
             this.FeedingSheet_button1.UseVisualStyleBackColor = false;
-            this.FeedingSheet_button1.Click += new System.EventHandler(this.button1_Click);
+            this.FeedingSheet_button1.Click += new System.EventHandler(this.FeedingSheet_button1_Click);
             // 
             // label3
             // 

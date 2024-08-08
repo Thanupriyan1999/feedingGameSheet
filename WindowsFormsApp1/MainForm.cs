@@ -30,12 +30,12 @@ namespace WindowsFormsApp1
 
         private void labelExit_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+          
         }
 
         private void Machanic_button2_Click(object sender, EventArgs e)
         {
-
+            ;
         }
 
         private void WorkStudy_button3_Click(object sender, EventArgs e)
@@ -51,6 +51,11 @@ namespace WindowsFormsApp1
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void FeedingSheet_button1_Click(object sender, EventArgs e)
+        {
+         
         }
     }
 }
