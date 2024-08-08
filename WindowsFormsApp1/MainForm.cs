@@ -35,5 +35,20 @@ namespace WindowsFormsApp1
         {
             Application.Exit();
         }
+
+        private void Machanic_button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WorkStudy_button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Audit_button9_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
