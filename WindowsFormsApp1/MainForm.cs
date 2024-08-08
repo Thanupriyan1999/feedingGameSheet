@@ -22,11 +22,6 @@ namespace WindowsFormsApp1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
      
 
         
@@ -34,6 +29,16 @@ namespace WindowsFormsApp1
         private void labelExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void btnFeedingGameSheet_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnMechanic_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
