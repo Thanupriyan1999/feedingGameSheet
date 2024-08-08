@@ -37,9 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -47,6 +45,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -66,27 +65,26 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(167, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(371, 25);
+            this.label1.Size = new System.Drawing.Size(406, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pre Plan For The Feeding - Mechanic";
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel3.BackColor = System.Drawing.Color.SlateBlue;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel3.Controls.Add(this.dateTimePicker1);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.dateTimePicker2);
             this.panel3.Controls.Add(this.textBox3);
-            this.panel3.Controls.Add(this.textBox2);
             this.panel3.Controls.Add(this.textBox1);
-            this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label4);
@@ -149,48 +147,31 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.CalendarMonthBackground = System.Drawing.Color.LightGray;
-            this.dateTimePicker2.Location = new System.Drawing.Point(151, 146);
+            this.dateTimePicker2.Location = new System.Drawing.Point(266, 146);
             this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(156, 20);
+            this.dateTimePicker2.Size = new System.Drawing.Size(439, 20);
             this.dateTimePicker2.TabIndex = 39;
             // 
             // textBox3
             // 
             this.textBox3.BackColor = System.Drawing.Color.LightGray;
-            this.textBox3.Location = new System.Drawing.Point(151, 109);
+            this.textBox3.Location = new System.Drawing.Point(266, 109);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(156, 20);
+            this.textBox3.Size = new System.Drawing.Size(439, 20);
             this.textBox3.TabIndex = 38;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.LightGray;
-            this.textBox2.Location = new System.Drawing.Point(151, 183);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(156, 20);
-            this.textBox2.TabIndex = 37;
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.LightGray;
-            this.textBox1.Location = new System.Drawing.Point(151, 72);
+            this.textBox1.Location = new System.Drawing.Point(266, 72);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 20);
+            this.textBox1.Size = new System.Drawing.Size(439, 20);
             this.textBox1.TabIndex = 36;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.LightGray;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(151, 34);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 21);
-            this.comboBox1.TabIndex = 35;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.BlueViolet;
+            this.label2.BackColor = System.Drawing.Color.SlateBlue;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(15, 39);
@@ -202,7 +183,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.BlueViolet;
+            this.label3.BackColor = System.Drawing.Color.SlateBlue;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(15, 76);
@@ -214,7 +195,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.BlueViolet;
+            this.label4.BackColor = System.Drawing.Color.SlateBlue;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(15, 113);
@@ -226,7 +207,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.BlueViolet;
+            this.label5.BackColor = System.Drawing.Color.SlateBlue;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(15, 150);
@@ -243,13 +224,12 @@
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(15, 187);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 16);
+            this.label6.Size = new System.Drawing.Size(0, 16);
             this.label6.TabIndex = 11;
-            this.label6.Text = "SMV";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.BlueViolet;
+            this.panel2.BackColor = System.Drawing.Color.SlateBlue;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel2.Controls.Add(this.dataGridView1);
             this.panel2.Location = new System.Drawing.Point(14, 59);
@@ -265,6 +245,14 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(800, 250);
             this.dataGridView1.TabIndex = 33;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.LightGray;
+            this.dateTimePicker1.Location = new System.Drawing.Point(266, 35);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(439, 20);
+            this.dateTimePicker1.TabIndex = 49;
             // 
             // Mechanic
             // 
@@ -296,9 +284,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
         private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -306,5 +292,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
