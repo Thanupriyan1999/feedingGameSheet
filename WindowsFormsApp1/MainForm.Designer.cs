@@ -47,7 +47,7 @@
             this.FeedingSheet_button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.feedingGameSheet1 = new WindowsFormsApp1.FeedingGameSheet();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -59,10 +59,10 @@
             this.lableExit.BackColor = System.Drawing.Color.Red;
             this.lableExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lableExit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lableExit.Location = new System.Drawing.Point(1041, 9);
+            this.lableExit.Location = new System.Drawing.Point(1315, 9);
             this.lableExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lableExit.Name = "lableExit";
-            this.lableExit.Size = new System.Drawing.Size(16, 16);
+            this.lableExit.Size = new System.Drawing.Size(15, 16);
             this.lableExit.TabIndex = 0;
             this.lableExit.Text = "X";
             this.lableExit.Click += new System.EventHandler(this.labelExit_Click);
@@ -81,21 +81,21 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1069, 40);
+            this.panel1.Size = new System.Drawing.Size(1343, 40);
             this.panel1.TabIndex = 1;
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(843, 7);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1047, 7);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(152, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(248, 22);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // Date_label
             // 
             this.Date_label.AutoSize = true;
             this.Date_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Date_label.Location = new System.Drawing.Point(800, 9);
+            this.Date_label.Location = new System.Drawing.Point(1004, 9);
             this.Date_label.Name = "Date_label";
             this.Date_label.Size = new System.Drawing.Size(43, 18);
             this.Date_label.TabIndex = 5;
@@ -146,7 +146,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 40);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(221, 652);
+            this.panel2.Size = new System.Drawing.Size(221, 790);
             this.panel2.TabIndex = 2;
             // 
             // Audit_button9
@@ -158,7 +158,7 @@
             this.Audit_button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Audit_button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Audit_button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Audit_button9.Location = new System.Drawing.Point(17, 578);
+            this.Audit_button9.Location = new System.Drawing.Point(17, 679);
             this.Audit_button9.Name = "Audit_button9";
             this.Audit_button9.Size = new System.Drawing.Size(182, 46);
             this.Audit_button9.TabIndex = 10;
@@ -175,7 +175,7 @@
             this.Production_button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Production_button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Production_button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Production_button8.Location = new System.Drawing.Point(17, 522);
+            this.Production_button8.Location = new System.Drawing.Point(16, 618);
             this.Production_button8.Name = "Production_button8";
             this.Production_button8.Size = new System.Drawing.Size(182, 35);
             this.Production_button8.TabIndex = 9;
@@ -191,7 +191,7 @@
             this.ZonelHead_button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.ZonelHead_button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ZonelHead_button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ZonelHead_button6.Location = new System.Drawing.Point(17, 466);
+            this.ZonelHead_button6.Location = new System.Drawing.Point(17, 552);
             this.ZonelHead_button6.Name = "ZonelHead_button6";
             this.ZonelHead_button6.Size = new System.Drawing.Size(182, 35);
             this.ZonelHead_button6.TabIndex = 8;
@@ -207,7 +207,7 @@
             this.Technical_button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Technical_button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Technical_button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Technical_button5.Location = new System.Drawing.Point(16, 409);
+            this.Technical_button5.Location = new System.Drawing.Point(17, 485);
             this.Technical_button5.Name = "Technical_button5";
             this.Technical_button5.Size = new System.Drawing.Size(182, 35);
             this.Technical_button5.TabIndex = 7;
@@ -223,7 +223,7 @@
             this.Leader_button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Leader_button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Leader_button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Leader_button4.Location = new System.Drawing.Point(16, 358);
+            this.Leader_button4.Location = new System.Drawing.Point(17, 421);
             this.Leader_button4.Name = "Leader_button4";
             this.Leader_button4.Size = new System.Drawing.Size(182, 35);
             this.Leader_button4.TabIndex = 6;
@@ -239,7 +239,7 @@
             this.WorkStudy_button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.WorkStudy_button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.WorkStudy_button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.WorkStudy_button3.Location = new System.Drawing.Point(16, 301);
+            this.WorkStudy_button3.Location = new System.Drawing.Point(17, 356);
             this.WorkStudy_button3.Name = "WorkStudy_button3";
             this.WorkStudy_button3.Size = new System.Drawing.Size(182, 35);
             this.WorkStudy_button3.TabIndex = 5;
@@ -256,7 +256,7 @@
             this.Machanic_button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Machanic_button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Machanic_button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Machanic_button2.Location = new System.Drawing.Point(16, 243);
+            this.Machanic_button2.Location = new System.Drawing.Point(16, 296);
             this.Machanic_button2.Name = "Machanic_button2";
             this.Machanic_button2.Size = new System.Drawing.Size(182, 35);
             this.Machanic_button2.TabIndex = 4;
@@ -273,7 +273,7 @@
             this.FeedingSheet_button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.FeedingSheet_button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FeedingSheet_button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.FeedingSheet_button1.Location = new System.Drawing.Point(16, 187);
+            this.FeedingSheet_button1.Location = new System.Drawing.Point(16, 226);
             this.FeedingSheet_button1.Name = "FeedingSheet_button1";
             this.FeedingSheet_button1.Size = new System.Drawing.Size(182, 35);
             this.FeedingSheet_button1.TabIndex = 3;
@@ -302,22 +302,22 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // panel3
+            // feedingGameSheet1
             // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(221, 40);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(848, 652);
-            this.panel3.TabIndex = 3;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.feedingGameSheet1.BackColor = System.Drawing.Color.GhostWhite;
+            this.feedingGameSheet1.Location = new System.Drawing.Point(222, 41);
+            this.feedingGameSheet1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.feedingGameSheet1.Name = "feedingGameSheet1";
+            this.feedingGameSheet1.Size = new System.Drawing.Size(1121, 789);
+            this.feedingGameSheet1.TabIndex = 3;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1069, 692);
-            this.Controls.Add(this.panel3);
+            this.ClientSize = new System.Drawing.Size(1343, 830);
+            this.Controls.Add(this.feedingGameSheet1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -354,7 +354,7 @@
         private System.Windows.Forms.Label ModuleNo_label;
         private System.Windows.Forms.Label Date_label;
         private System.Windows.Forms.TextBox ModuleNo_textBox;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private FeedingGameSheet feedingGameSheet1;
     }
 }
