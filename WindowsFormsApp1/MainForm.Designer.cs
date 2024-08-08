@@ -47,7 +47,6 @@
             this.FeedingSheet_button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.feedingGameSheet1 = new WindowsFormsApp1.FeedingGameSheet();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -302,22 +301,12 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // feedingGameSheet1
-            // 
-            this.feedingGameSheet1.BackColor = System.Drawing.Color.GhostWhite;
-            this.feedingGameSheet1.Location = new System.Drawing.Point(222, 41);
-            this.feedingGameSheet1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.feedingGameSheet1.Name = "feedingGameSheet1";
-            this.feedingGameSheet1.Size = new System.Drawing.Size(1121, 789);
-            this.feedingGameSheet1.TabIndex = 3;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1343, 830);
-            this.Controls.Add(this.feedingGameSheet1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -355,6 +344,5 @@
         private System.Windows.Forms.Label Date_label;
         private System.Windows.Forms.TextBox ModuleNo_textBox;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private FeedingGameSheet feedingGameSheet1;
     }
 }
