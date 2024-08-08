@@ -37,14 +37,14 @@
             this.ModuleNo_label = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Audit_button9 = new System.Windows.Forms.Button();
+            this.Production_button8 = new System.Windows.Forms.Button();
+            this.ZonelHead_button6 = new System.Windows.Forms.Button();
+            this.Technical_button5 = new System.Windows.Forms.Button();
+            this.Leader_button4 = new System.Windows.Forms.Button();
+            this.WorkStudy_button3 = new System.Windows.Forms.Button();
+            this.Machanic_button2 = new System.Windows.Forms.Button();
+            this.FeedingSheet_button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -56,7 +56,6 @@
             // lableExit
             // 
             this.lableExit.AutoSize = true;
-            this.lableExit.BackColor = System.Drawing.Color.Red;
             this.lableExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lableExit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lableExit.Location = new System.Drawing.Point(1041, 9);
@@ -121,25 +120,25 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 11);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(213, 20);
+            this.label2.Size = new System.Drawing.Size(189, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Pre Plan For The Feeding";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.panel2.Controls.Add(this.button9);
-            this.panel2.Controls.Add(this.button8);
-            this.panel2.Controls.Add(this.button6);
-            this.panel2.Controls.Add(this.button5);
-            this.panel2.Controls.Add(this.button4);
-            this.panel2.Controls.Add(this.button3);
-            this.panel2.Controls.Add(this.button2);
-            this.panel2.Controls.Add(this.button1);
+            this.panel2.Controls.Add(this.Audit_button9);
+            this.panel2.Controls.Add(this.Production_button8);
+            this.panel2.Controls.Add(this.ZonelHead_button6);
+            this.panel2.Controls.Add(this.Technical_button5);
+            this.panel2.Controls.Add(this.Leader_button4);
+            this.panel2.Controls.Add(this.WorkStudy_button3);
+            this.panel2.Controls.Add(this.Machanic_button2);
+            this.panel2.Controls.Add(this.FeedingSheet_button1);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -180,105 +179,107 @@
             this.Production_button8.Text = "Production Assistant";
             this.Production_button8.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // ZonelHead_button6
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(17, 466);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(182, 35);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "Zonel Head";
-            this.button6.UseVisualStyleBackColor = false;
+            this.ZonelHead_button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.ZonelHead_button6.FlatAppearance.BorderSize = 0;
+            this.ZonelHead_button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.ZonelHead_button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.ZonelHead_button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ZonelHead_button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ZonelHead_button6.Location = new System.Drawing.Point(17, 466);
+            this.ZonelHead_button6.Name = "ZonelHead_button6";
+            this.ZonelHead_button6.Size = new System.Drawing.Size(182, 35);
+            this.ZonelHead_button6.TabIndex = 8;
+            this.ZonelHead_button6.Text = "Zonel Head";
+            this.ZonelHead_button6.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // Technical_button5
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(16, 409);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(182, 35);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Technical";
-            this.button5.UseVisualStyleBackColor = false;
+            this.Technical_button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.Technical_button5.FlatAppearance.BorderSize = 0;
+            this.Technical_button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.Technical_button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.Technical_button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Technical_button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Technical_button5.Location = new System.Drawing.Point(16, 409);
+            this.Technical_button5.Name = "Technical_button5";
+            this.Technical_button5.Size = new System.Drawing.Size(182, 35);
+            this.Technical_button5.TabIndex = 7;
+            this.Technical_button5.Text = "Technical";
+            this.Technical_button5.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // Leader_button4
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(16, 358);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(182, 35);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "Leader/Incharge";
-            this.button4.UseVisualStyleBackColor = false;
+            this.Leader_button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.Leader_button4.FlatAppearance.BorderSize = 0;
+            this.Leader_button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.Leader_button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.Leader_button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Leader_button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Leader_button4.Location = new System.Drawing.Point(16, 358);
+            this.Leader_button4.Name = "Leader_button4";
+            this.Leader_button4.Size = new System.Drawing.Size(182, 35);
+            this.Leader_button4.TabIndex = 6;
+            this.Leader_button4.Text = "Leader/Incharge";
+            this.Leader_button4.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // WorkStudy_button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(16, 301);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(182, 35);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Work Study";
-            this.button3.UseVisualStyleBackColor = false;
+            this.WorkStudy_button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.WorkStudy_button3.FlatAppearance.BorderSize = 0;
+            this.WorkStudy_button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.WorkStudy_button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.WorkStudy_button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.WorkStudy_button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.WorkStudy_button3.Location = new System.Drawing.Point(16, 301);
+            this.WorkStudy_button3.Name = "WorkStudy_button3";
+            this.WorkStudy_button3.Size = new System.Drawing.Size(182, 35);
+            this.WorkStudy_button3.TabIndex = 5;
+            this.WorkStudy_button3.Text = "Work Study";
+            this.WorkStudy_button3.UseVisualStyleBackColor = false;
+            this.WorkStudy_button3.Click += new System.EventHandler(this.WorkStudy_button3_Click);
             // 
-            // button2
+            // Machanic_button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(16, 243);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(182, 35);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Mechanic";
-            this.button2.UseVisualStyleBackColor = false;
+            this.Machanic_button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.Machanic_button2.FlatAppearance.BorderSize = 0;
+            this.Machanic_button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.Machanic_button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.Machanic_button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Machanic_button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Machanic_button2.Location = new System.Drawing.Point(16, 243);
+            this.Machanic_button2.Name = "Machanic_button2";
+            this.Machanic_button2.Size = new System.Drawing.Size(182, 35);
+            this.Machanic_button2.TabIndex = 4;
+            this.Machanic_button2.Text = "Mechanic";
+            this.Machanic_button2.UseVisualStyleBackColor = false;
+            this.Machanic_button2.Click += new System.EventHandler(this.Machanic_button2_Click);
             // 
-            // button1
+            // FeedingSheet_button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(16, 187);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(182, 35);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Feeding game sheet";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.FeedingSheet_button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
+            this.FeedingSheet_button1.FlatAppearance.BorderSize = 0;
+            this.FeedingSheet_button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.FeedingSheet_button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
+            this.FeedingSheet_button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FeedingSheet_button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.FeedingSheet_button1.Location = new System.Drawing.Point(16, 187);
+            this.FeedingSheet_button1.Name = "FeedingSheet_button1";
+            this.FeedingSheet_button1.Size = new System.Drawing.Size(182, 35);
+            this.FeedingSheet_button1.TabIndex = 3;
+            this.FeedingSheet_button1.Text = "Feeding game sheet";
+            this.FeedingSheet_button1.UseVisualStyleBackColor = false;
+            this.FeedingSheet_button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(56, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(118, 18);
+            this.label3.Size = new System.Drawing.Size(106, 18);
             this.label3.TabIndex = 3;
             this.label3.Text = "Welcome, user";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -300,6 +301,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(848, 652);
             this.panel3.TabIndex = 3;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // MainForm
             // 
@@ -333,17 +335,17 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button FeedingSheet_button1;
+        private System.Windows.Forms.Button Technical_button5;
+        private System.Windows.Forms.Button Leader_button4;
+        private System.Windows.Forms.Button WorkStudy_button3;
+        private System.Windows.Forms.Button Machanic_button2;
+        private System.Windows.Forms.Button ZonelHead_button6;
+        private System.Windows.Forms.Button Audit_button9;
+        private System.Windows.Forms.Button Production_button8;
+        private System.Windows.Forms.Label ModuleNo_label;
+        private System.Windows.Forms.Label Date_label;
+        private System.Windows.Forms.TextBox ModuleNo_textBox;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
