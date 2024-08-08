@@ -56,12 +56,13 @@
             // lableExit
             // 
             this.lableExit.AutoSize = true;
+            this.lableExit.BackColor = System.Drawing.Color.Red;
             this.lableExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lableExit.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lableExit.Location = new System.Drawing.Point(1041, 9);
             this.lableExit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lableExit.Name = "lableExit";
-            this.lableExit.Size = new System.Drawing.Size(15, 16);
+            this.lableExit.Size = new System.Drawing.Size(16, 16);
             this.lableExit.TabIndex = 0;
             this.lableExit.Text = "X";
             this.lableExit.Click += new System.EventHandler(this.labelExit_Click);
@@ -85,16 +86,16 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(773, 7);
+            this.dateTimePicker1.Location = new System.Drawing.Point(843, 7);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(236, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(152, 22);
             this.dateTimePicker1.TabIndex = 0;
             // 
             // Date_label
             // 
             this.Date_label.AutoSize = true;
             this.Date_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Date_label.Location = new System.Drawing.Point(730, 9);
+            this.Date_label.Location = new System.Drawing.Point(800, 9);
             this.Date_label.Name = "Date_label";
             this.Date_label.Size = new System.Drawing.Size(43, 18);
             this.Date_label.TabIndex = 5;
@@ -120,11 +121,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(13, 11);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 20);
+            this.label2.Size = new System.Drawing.Size(213, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Pre Plan For The Feeding";
             // 
@@ -151,12 +152,13 @@
             // Audit_button9
             // 
             this.Audit_button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.Audit_button9.FlatAppearance.BorderSize = 0;
+            this.Audit_button9.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Audit_button9.FlatAppearance.BorderSize = 3;
             this.Audit_button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Audit_button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Audit_button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Audit_button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Audit_button9.Location = new System.Drawing.Point(20, 563);
+            this.Audit_button9.Location = new System.Drawing.Point(17, 578);
             this.Audit_button9.Name = "Audit_button9";
             this.Audit_button9.Size = new System.Drawing.Size(182, 46);
             this.Audit_button9.TabIndex = 10;
@@ -167,7 +169,8 @@
             // Production_button8
             // 
             this.Production_button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.Production_button8.FlatAppearance.BorderSize = 0;
+            this.Production_button8.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Production_button8.FlatAppearance.BorderSize = 3;
             this.Production_button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Production_button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Production_button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -182,7 +185,8 @@
             // ZonelHead_button6
             // 
             this.ZonelHead_button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.ZonelHead_button6.FlatAppearance.BorderSize = 0;
+            this.ZonelHead_button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.ZonelHead_button6.FlatAppearance.BorderSize = 3;
             this.ZonelHead_button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.ZonelHead_button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.ZonelHead_button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -197,7 +201,8 @@
             // Technical_button5
             // 
             this.Technical_button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.Technical_button5.FlatAppearance.BorderSize = 0;
+            this.Technical_button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Technical_button5.FlatAppearance.BorderSize = 3;
             this.Technical_button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Technical_button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Technical_button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -212,7 +217,8 @@
             // Leader_button4
             // 
             this.Leader_button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.Leader_button4.FlatAppearance.BorderSize = 0;
+            this.Leader_button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Leader_button4.FlatAppearance.BorderSize = 3;
             this.Leader_button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Leader_button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Leader_button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -227,7 +233,8 @@
             // WorkStudy_button3
             // 
             this.WorkStudy_button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.WorkStudy_button3.FlatAppearance.BorderSize = 0;
+            this.WorkStudy_button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.WorkStudy_button3.FlatAppearance.BorderSize = 3;
             this.WorkStudy_button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.WorkStudy_button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.WorkStudy_button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -243,7 +250,8 @@
             // Machanic_button2
             // 
             this.Machanic_button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.Machanic_button2.FlatAppearance.BorderSize = 0;
+            this.Machanic_button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Machanic_button2.FlatAppearance.BorderSize = 3;
             this.Machanic_button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Machanic_button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.Machanic_button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -259,7 +267,8 @@
             // FeedingSheet_button1
             // 
             this.FeedingSheet_button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
-            this.FeedingSheet_button1.FlatAppearance.BorderSize = 0;
+            this.FeedingSheet_button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.FeedingSheet_button1.FlatAppearance.BorderSize = 3;
             this.FeedingSheet_button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.FeedingSheet_button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(75)))), ((int)(((byte)(8)))), ((int)(((byte)(138)))));
             this.FeedingSheet_button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -275,14 +284,13 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(56, 133);
+            this.label3.Location = new System.Drawing.Point(49, 133);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 18);
+            this.label3.Size = new System.Drawing.Size(118, 18);
             this.label3.TabIndex = 3;
             this.label3.Text = "Welcome, user";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox1
             // 
