@@ -47,6 +47,14 @@
             this.FeedingSheet_button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.feedingGameSheet1 = new WindowsFormsApp1.FeedingGameSheet();
+            this.mechanic1 = new WindowsFormsApp1.Mechanic();
+            this.workStudy1 = new WindowsFormsApp1.WorkStudy();
+            this.leader1 = new WindowsFormsApp1.Leader();
+            this.technical1 = new WindowsFormsApp1.Technical();
+            this.zonelHead1 = new WindowsFormsApp1.ZonelHead();
+            this.productionAssistent1 = new WindowsFormsApp1.ProductionAssistent();
+            this.audit1 = new WindowsFormsApp1.Audit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -180,6 +188,7 @@
             this.Production_button8.TabIndex = 9;
             this.Production_button8.Text = "Production Assistant";
             this.Production_button8.UseVisualStyleBackColor = false;
+            this.Production_button8.Click += new System.EventHandler(this.Production_button8_Click);
             // 
             // ZonelHead_button6
             // 
@@ -196,6 +205,7 @@
             this.ZonelHead_button6.TabIndex = 8;
             this.ZonelHead_button6.Text = "Zonel Head";
             this.ZonelHead_button6.UseVisualStyleBackColor = false;
+            this.ZonelHead_button6.Click += new System.EventHandler(this.ZonelHead_button6_Click);
             // 
             // Technical_button5
             // 
@@ -212,6 +222,7 @@
             this.Technical_button5.TabIndex = 7;
             this.Technical_button5.Text = "Technical";
             this.Technical_button5.UseVisualStyleBackColor = false;
+            this.Technical_button5.Click += new System.EventHandler(this.Technical_button5_Click);
             // 
             // Leader_button4
             // 
@@ -228,6 +239,7 @@
             this.Leader_button4.TabIndex = 6;
             this.Leader_button4.Text = "Leader/Incharge";
             this.Leader_button4.UseVisualStyleBackColor = false;
+            this.Leader_button4.Click += new System.EventHandler(this.Leader_button4_Click);
             // 
             // WorkStudy_button3
             // 
@@ -301,12 +313,85 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // feedingGameSheet1
+            // 
+            this.feedingGameSheet1.BackColor = System.Drawing.Color.GhostWhite;
+            this.feedingGameSheet1.Location = new System.Drawing.Point(221, 39);
+            this.feedingGameSheet1.Margin = new System.Windows.Forms.Padding(4);
+            this.feedingGameSheet1.Name = "feedingGameSheet1";
+            this.feedingGameSheet1.Size = new System.Drawing.Size(1122, 791);
+            this.feedingGameSheet1.TabIndex = 10;
+            // 
+            // mechanic1
+            // 
+            this.mechanic1.Location = new System.Drawing.Point(221, 40);
+            this.mechanic1.Margin = new System.Windows.Forms.Padding(4);
+            this.mechanic1.Name = "mechanic1";
+            this.mechanic1.Size = new System.Drawing.Size(1123, 790);
+            this.mechanic1.TabIndex = 9;
+            // 
+            // workStudy1
+            // 
+            this.workStudy1.Location = new System.Drawing.Point(221, 40);
+            this.workStudy1.Margin = new System.Windows.Forms.Padding(4);
+            this.workStudy1.Name = "workStudy1";
+            this.workStudy1.Size = new System.Drawing.Size(1122, 790);
+            this.workStudy1.TabIndex = 8;
+            // 
+            // leader1
+            // 
+            this.leader1.Location = new System.Drawing.Point(221, 40);
+            this.leader1.Margin = new System.Windows.Forms.Padding(4);
+            this.leader1.Name = "leader1";
+            this.leader1.Size = new System.Drawing.Size(1123, 790);
+            this.leader1.TabIndex = 7;
+            // 
+            // technical1
+            // 
+            this.technical1.Location = new System.Drawing.Point(221, 40);
+            this.technical1.Margin = new System.Windows.Forms.Padding(4);
+            this.technical1.Name = "technical1";
+            this.technical1.Size = new System.Drawing.Size(1123, 790);
+            this.technical1.TabIndex = 6;
+            // 
+            // zonelHead1
+            // 
+            this.zonelHead1.Location = new System.Drawing.Point(221, 39);
+            this.zonelHead1.Margin = new System.Windows.Forms.Padding(4);
+            this.zonelHead1.Name = "zonelHead1";
+            this.zonelHead1.Size = new System.Drawing.Size(1122, 791);
+            this.zonelHead1.TabIndex = 5;
+            // 
+            // productionAssistent1
+            // 
+            this.productionAssistent1.Location = new System.Drawing.Point(221, 39);
+            this.productionAssistent1.Margin = new System.Windows.Forms.Padding(4);
+            this.productionAssistent1.Name = "productionAssistent1";
+            this.productionAssistent1.Size = new System.Drawing.Size(1123, 791);
+            this.productionAssistent1.TabIndex = 4;
+            // 
+            // audit1
+            // 
+            this.audit1.Location = new System.Drawing.Point(221, 39);
+            this.audit1.Margin = new System.Windows.Forms.Padding(4);
+            this.audit1.Name = "audit1";
+            this.audit1.Size = new System.Drawing.Size(1123, 786);
+            this.audit1.TabIndex = 3;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(1343, 830);
+            this.Controls.Add(this.feedingGameSheet1);
+            this.Controls.Add(this.mechanic1);
+            this.Controls.Add(this.workStudy1);
+            this.Controls.Add(this.leader1);
+            this.Controls.Add(this.technical1);
+            this.Controls.Add(this.zonelHead1);
+            this.Controls.Add(this.productionAssistent1);
+            this.Controls.Add(this.audit1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -345,5 +430,13 @@
         private System.Windows.Forms.Label Date_label;
         private System.Windows.Forms.TextBox ModuleNo_textBox;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private Audit audit1;
+        private ProductionAssistent productionAssistent1;
+        private ZonelHead zonelHead1;
+        private Technical technical1;
+        private Leader leader1;
+        private WorkStudy workStudy1;
+        private Mechanic mechanic1;
+        private FeedingGameSheet feedingGameSheet1;
     }
 }

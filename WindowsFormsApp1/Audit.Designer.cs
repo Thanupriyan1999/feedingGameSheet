@@ -81,11 +81,11 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(167, 13);
+            this.label1.Location = new System.Drawing.Point(292, 10);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(510, 25);
+            this.label1.Size = new System.Drawing.Size(298, 25);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Pre Plan For The Feeding - Production Asistant";
+            this.label1.Text = "Audit Confirmation Process";
             // 
             // panel3
             // 
