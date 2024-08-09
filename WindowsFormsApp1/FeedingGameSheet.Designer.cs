@@ -269,6 +269,7 @@
             this.label16.Size = new System.Drawing.Size(89, 16);
             this.label16.TabIndex = 23;
             this.label16.Text = "Feeding Date";
+            this.label16.Click += new System.EventHandler(this.label16_Click);
             // 
             // dataGridView1
             // 
@@ -497,6 +498,11 @@
             // 
             this.comboBox1.BackColor = System.Drawing.Color.LightGray;
             this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Apple",
+            "Ant",
+            "Ball ",
+            "Bat"});
             this.comboBox1.Location = new System.Drawing.Point(151, 34);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(156, 21);

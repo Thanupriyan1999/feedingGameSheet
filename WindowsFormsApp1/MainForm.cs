@@ -57,5 +57,10 @@ namespace WindowsFormsApp1
         {
          
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
