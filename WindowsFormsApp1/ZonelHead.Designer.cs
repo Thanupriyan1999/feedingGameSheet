@@ -87,7 +87,7 @@
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.label2);
             this.panel3.Controls.Add(this.label6);
-            this.panel3.Location = new System.Drawing.Point(14, 401);
+            this.panel3.Location = new System.Drawing.Point(14, 397);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(821, 233);
             this.panel3.TabIndex = 47;
@@ -98,7 +98,7 @@
             this.pbxEditSubject.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxEditSubject.BackgroundImage")));
             this.pbxEditSubject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxEditSubject.InitialImage = null;
-            this.pbxEditSubject.Location = new System.Drawing.Point(154, 195);
+            this.pbxEditSubject.Location = new System.Drawing.Point(687, 191);
             this.pbxEditSubject.Margin = new System.Windows.Forms.Padding(2);
             this.pbxEditSubject.Name = "pbxEditSubject";
             this.pbxEditSubject.Size = new System.Drawing.Size(22, 21);
@@ -111,7 +111,7 @@
             this.pbxSaveSubject.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxSaveSubject.BackgroundImage")));
             this.pbxSaveSubject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxSaveSubject.InitialImage = null;
-            this.pbxSaveSubject.Location = new System.Drawing.Point(236, 195);
+            this.pbxSaveSubject.Location = new System.Drawing.Point(769, 191);
             this.pbxSaveSubject.Margin = new System.Windows.Forms.Padding(2);
             this.pbxSaveSubject.Name = "pbxSaveSubject";
             this.pbxSaveSubject.Size = new System.Drawing.Size(22, 21);
@@ -124,7 +124,7 @@
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button1.Location = new System.Drawing.Point(110, 186);
+            this.button1.Location = new System.Drawing.Point(643, 182);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 39);
             this.button1.TabIndex = 54;
@@ -137,7 +137,7 @@
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(11)))), ((int)(((byte)(97)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(191, 186);
+            this.button2.Location = new System.Drawing.Point(724, 182);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 39);
             this.button2.TabIndex = 46;
@@ -186,7 +186,7 @@
             this.panel2.Controls.Add(this.pbxDeleteSubject);
             this.panel2.Controls.Add(this.button4);
             this.panel2.Controls.Add(this.dataGridView1);
-            this.panel2.Location = new System.Drawing.Point(14, 68);
+            this.panel2.Location = new System.Drawing.Point(14, 64);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(821, 317);
             this.panel2.TabIndex = 46;
@@ -218,7 +218,7 @@
             this.pbxDeleteSubject.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbxDeleteSubject.BackgroundImage")));
             this.pbxDeleteSubject.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxDeleteSubject.InitialImage = null;
-            this.pbxDeleteSubject.Location = new System.Drawing.Point(777, 274);
+            this.pbxDeleteSubject.Location = new System.Drawing.Point(768, 274);
             this.pbxDeleteSubject.Margin = new System.Windows.Forms.Padding(2);
             this.pbxDeleteSubject.Name = "pbxDeleteSubject";
             this.pbxDeleteSubject.Size = new System.Drawing.Size(22, 21);
@@ -231,7 +231,7 @@
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.button4.Location = new System.Drawing.Point(726, 265);
+            this.button4.Location = new System.Drawing.Point(717, 265);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(82, 39);
             this.button4.TabIndex = 54;
@@ -245,7 +245,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(8, 43);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(800, 216);
+            this.dataGridView1.Size = new System.Drawing.Size(791, 216);
             this.dataGridView1.TabIndex = 33;
             // 
             // ZonelHead
