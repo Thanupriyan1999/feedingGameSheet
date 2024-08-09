@@ -40,8 +40,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label11 = new System.Windows.Forms.Label();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -113,9 +111,7 @@
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Controls.Add(this.textBox6);
             this.panel3.Controls.Add(this.textBox15);
-            this.panel3.Controls.Add(this.textBox5);
             this.panel3.Controls.Add(this.label11);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.button3);
@@ -222,25 +218,10 @@
             // 
             this.textBox15.BackColor = System.Drawing.Color.LightGray;
             this.textBox15.Location = new System.Drawing.Point(30, 214);
+            this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(345, 20);
+            this.textBox15.Size = new System.Drawing.Size(345, 105);
             this.textBox15.TabIndex = 53;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.LightGray;
-            this.textBox5.Location = new System.Drawing.Point(30, 251);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(345, 20);
-            this.textBox5.TabIndex = 52;
-            // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.LightGray;
-            this.textBox6.Location = new System.Drawing.Point(30, 288);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(345, 20);
-            this.textBox6.TabIndex = 54;
             // 
             // label2
             // 
@@ -464,9 +445,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

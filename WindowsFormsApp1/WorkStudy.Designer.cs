@@ -31,14 +31,13 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -47,11 +46,9 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -89,10 +86,7 @@
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.textBox6);
             this.panel3.Controls.Add(this.textBox15);
-            this.panel3.Controls.Add(this.textBox5);
-            this.panel3.Controls.Add(this.textBox4);
             this.panel3.Controls.Add(this.textBox3);
             this.panel3.Controls.Add(this.textBox2);
             this.panel3.Controls.Add(this.textBox1);
@@ -106,6 +100,22 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(821, 300);
             this.panel3.TabIndex = 37;
+            // 
+            // textBox8
+            // 
+            this.textBox8.BackColor = System.Drawing.Color.LightGray;
+            this.textBox8.Location = new System.Drawing.Point(229, 35);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(209, 20);
+            this.textBox8.TabIndex = 50;
+            // 
+            // textBox7
+            // 
+            this.textBox7.BackColor = System.Drawing.Color.LightGray;
+            this.textBox7.Location = new System.Drawing.Point(229, 149);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(209, 20);
+            this.textBox7.TabIndex = 49;
             // 
             // button4
             // 
@@ -156,37 +166,14 @@
             this.button1.Text = " Add";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // textBox6
-            // 
-            this.textBox6.BackColor = System.Drawing.Color.LightGray;
-            this.textBox6.Location = new System.Drawing.Point(499, 146);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(259, 20);
-            this.textBox6.TabIndex = 44;
-            // 
             // textBox15
             // 
             this.textBox15.BackColor = System.Drawing.Color.LightGray;
-            this.textBox15.Location = new System.Drawing.Point(499, 72);
+            this.textBox15.Location = new System.Drawing.Point(502, 72);
+            this.textBox15.Multiline = true;
             this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(259, 20);
+            this.textBox15.Size = new System.Drawing.Size(259, 94);
             this.textBox15.TabIndex = 42;
-            // 
-            // textBox5
-            // 
-            this.textBox5.BackColor = System.Drawing.Color.LightGray;
-            this.textBox5.Location = new System.Drawing.Point(499, 109);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(259, 20);
-            this.textBox5.TabIndex = 41;
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.LightGray;
-            this.textBox4.Location = new System.Drawing.Point(499, 183);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(259, 20);
-            this.textBox4.TabIndex = 40;
             // 
             // textBox3
             // 
@@ -272,6 +259,18 @@
             this.label6.TabIndex = 11;
             this.label6.Text = "GSD Analyses/Video And Method";
             // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.SlateBlue;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(581, 39);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(109, 16);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Critical Operation";
+            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.SlateBlue;
@@ -290,34 +289,6 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(800, 250);
             this.dataGridView1.TabIndex = 33;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.SlateBlue;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(581, 39);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(109, 16);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "Critical Operation";
-            // 
-            // textBox7
-            // 
-            this.textBox7.BackColor = System.Drawing.Color.LightGray;
-            this.textBox7.Location = new System.Drawing.Point(229, 149);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(209, 20);
-            this.textBox7.TabIndex = 49;
-            // 
-            // textBox8
-            // 
-            this.textBox8.BackColor = System.Drawing.Color.LightGray;
-            this.textBox8.Location = new System.Drawing.Point(229, 35);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(209, 20);
-            this.textBox8.TabIndex = 50;
             // 
             // WorkStudy
             // 
@@ -347,10 +318,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
