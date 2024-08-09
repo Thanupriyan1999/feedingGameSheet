@@ -44,8 +44,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -220,12 +220,12 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.SlateBlue;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.Controls.Add(this.dateTimePicker1);
+            this.panel3.Controls.Add(this.textBox4);
+            this.panel3.Controls.Add(this.textBox2);
             this.panel3.Controls.Add(this.button4);
             this.panel3.Controls.Add(this.button3);
             this.panel3.Controls.Add(this.button2);
             this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.dateTimePicker2);
             this.panel3.Controls.Add(this.textBox3);
             this.panel3.Controls.Add(this.textBox1);
             this.panel3.Controls.Add(this.label2);
@@ -238,21 +238,21 @@
             this.panel3.Size = new System.Drawing.Size(821, 300);
             this.panel3.TabIndex = 41;
             // 
-            // dateTimePicker1
+            // textBox2
             // 
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.LightGray;
-            this.dateTimePicker1.Location = new System.Drawing.Point(90, 37);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(626, 20);
-            this.dateTimePicker1.TabIndex = 49;
+            this.textBox2.BackColor = System.Drawing.Color.LightGray;
+            this.textBox2.Location = new System.Drawing.Point(90, 146);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(626, 20);
+            this.textBox2.TabIndex = 49;
             // 
-            // dateTimePicker2
+            // textBox4
             // 
-            this.dateTimePicker2.CalendarMonthBackground = System.Drawing.Color.LightGray;
-            this.dateTimePicker2.Location = new System.Drawing.Point(90, 148);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(626, 20);
-            this.dateTimePicker2.TabIndex = 39;
+            this.textBox4.BackColor = System.Drawing.Color.LightGray;
+            this.textBox4.Location = new System.Drawing.Point(90, 39);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(626, 20);
+            this.textBox4.TabIndex = 50;
             // 
             // ZonelHead
             // 
@@ -291,7 +291,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
